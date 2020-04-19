@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"receive_damage": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player"
+					}
+				}
+			}
+		}
+  },
+  "rewards": {
+    "function": "ooc-health:received_damage"
+  }
+}

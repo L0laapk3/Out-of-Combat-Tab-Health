@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "inflict_damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ooc-health:inflicted_damage"
+  }
+}
